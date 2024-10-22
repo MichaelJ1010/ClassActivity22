@@ -4,10 +4,10 @@
 using namespace std;
 
 namespace last {
-	string getLastName(string name) {
+	string getLastName(string name) { // only returns last name
 		short int i = 0;
 		string lastName;
-		while (true) {
+		while (true) { // the loop here is to show other string functions learned
 			if (isspace(name[i])) {
 				lastName = name.substr(i);
 				break;
