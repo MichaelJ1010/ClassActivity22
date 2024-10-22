@@ -1,5 +1,5 @@
-#ifndef
-#define
+#ifndef GETLASTNAME_H
+#define GETLASTNAME_H
 
 #include <string>
 

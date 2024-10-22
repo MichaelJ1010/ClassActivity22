@@ -1,10 +1,10 @@
-#ifndef
-#define
+#ifndef GETFIRSTNAME_H
+#define GETFIRSTNAME_H
 
 #include <string>
 
 namespace first {
-	string getFirstName(std::string name);
+	std::string getFirstName(std::string name);
 }
 
 
