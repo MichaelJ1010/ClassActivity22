@@ -3,8 +3,8 @@
 
 using namespace std;
 
-namespace first { // demonstrates getting first name using substr function as well as concatination
-	string getFirstName(string name) {
+namespace first { 
+	string getFirstName(string name) { // only returns first name from a full name argument
 		string firstName = "";
 
 		firstName = firstName + name.substr(0, name.find(' ')); 
